@@ -1,0 +1,62 @@
+.Produkt {
+    width: 25%;
+    height: 300px;
+    float: left;
+    margin: auto;
+    background-color: lightgreen;
+    border: 3px solid black;
+    overflow: hidden;
+    white-space: wrap;
+}
+
+
+.Obrazek {
+    height: 50%;
+}
+
+.Nazwa {
+    font-family: 'Facebook Letter Faces', sans-serif;
+    color: white;
+    font-size: 180%;
+    margin-top: 5px;
+    padding-bottom: -40px;
+    letter-spacing: 5px;
+  
+    text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+
+    margin: 0 1px 0 1px;
+}
+
+.Cena {
+    padding: 10px 0 5px 0;
+    font-family: 'Facebook Letter Faces', sans-serif;
+    color: lightgray;
+    font-size: 125%;
+    margin-top: -10px;
+  
+    text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+
+
+img {
+    height: 100%;
+    margin-top: 5px;
+    max-width: none;
+}
+
+p {
+    margin: 0px;
+}
+
+button {
+    background: none;
+    cursor: pointer;
+    border: none;
+}
