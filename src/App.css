@@ -26,10 +26,8 @@
 }
 
 h2 {
-  text-align: start;
   font-family: 'Facebook Letter Faces', sans-serif;
   color: #316FF6;
-  margin-left: 3%;
   font-size: 150%;
   padding-bottom: -40px;
   letter-spacing: 5px;
@@ -39,4 +37,15 @@ h2 {
   1px 1px 0 #000,
   1px -1px 0 #000,
   -1px -1px 0 #000;
+}
+
+.Koszyk {
+  text-align: start;
+  margin-left: 3%;
+  font-weight: bold;
+}
+
+.Suma {
+  font-style: italic;
+  font-size: 130%;;
 }

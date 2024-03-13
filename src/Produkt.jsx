@@ -1,7 +1,6 @@
 import './Produkt.css';
 import React from 'react';
-//obrazki
-import cart from './img/cart.png';
+
 
 function Produkt(props) {
     return (
@@ -11,9 +10,15 @@ function Produkt(props) {
             </div>
             <p className='Nazwa'>{props.nazwa}</p>
             <p className='Cena'>{props.cena} zl</p>
-            <button>
-                <img src={cart} alt={props.nazwa}/>
+
+            <button onClick={props.kup}>
+                <p className='Kup'>+</p>
             </button>
+
+            <button onClick={props.oddaj}>
+                <p className='Oddaj'>-</p>
+            </button>
+            
         </div>
     );
 }
